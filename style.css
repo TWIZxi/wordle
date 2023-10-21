@@ -8,5 +8,5 @@
 .grid {
 display: grid;
 grid-template-rows: repat(6,auto);
-grid-template-columns: repat(5, auto);
+grid-template-columns: repeat(5, auto);
 }

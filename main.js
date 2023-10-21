@@ -2,7 +2,7 @@
 //Define Variables
 
 let user;
-let gameBoard;
+let grid;
 let winner;
 let randomWord;
 let keyBoard;
@@ -13,7 +13,7 @@ const resetButton = document.querySelector("#reset");
 //Init & // Create Game Board 6 Rows by 5 columns
 
 function init() {
-  gameBoard = [
+  grid = [
     [null, null, null, null, null],
     [null, null, null, null, null],
     [null, null, null, null, null],
