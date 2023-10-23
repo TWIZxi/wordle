@@ -1,12 +1,39 @@
-.board {
-    display: grid;
-    align-items: center;
-    height: 600px;
-    width: 100%
+html,
+body {
+  background:  rgb(47, 44, 44);
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.grid {
-display: grid;
-grid-template-rows: repat(6,auto);
-grid-template-columns: repeat(5, auto);
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-content: center;
+  font-family: Helvetica 75 Bold;
+}
+
+.col {
+  width: 60px;
+  height: 60px;
+  border: 2px solid gray;
+  margin: 4px;
+  color: white;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
 }
